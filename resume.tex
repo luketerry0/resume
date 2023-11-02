@@ -1,0 +1,96 @@
+% Document class and font size
+\documentclass[a4paper,10pt]{extarticle}
+
+% Packages
+\usepackage[utf8]{inputenc} % For input encoding
+\usepackage{geometry} % For page margins
+\geometry{a4paper, margin=1in} % Set paper size and margins
+\usepackage{titlesec} % For section title formatting
+\usepackage{enumitem} % For itemized list formatting
+\usepackage{hyperref} % For hyperlinks
+
+% Formatting
+\setlist{noitemsep} % Removes item separation
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}[\titlerule] % Section title format
+\titlespacing*{\section}{0pt}{\baselineskip}{\baselineskip} % Section title spacing
+
+% Begin document
+\begin{document}
+
+% Disable page numbers
+\pagestyle{empty}
+
+% Header
+\begin{center}
+\textbf{\Large Luke Terry}\\[2pt] % Name
+Norman, Oklahoma | \href{mailto:luke.h.terry-1@ou.edu}{luke.h.terry-1@ou.edu} | (414) 837-8183 | \href{https://www.linkedin.com/in/luketerry0/}{linkedin.com/in/luketerry0}
+\end{center}
+
+% Education Section
+\section*{Education}
+\noindent
+\textbf{University of Oklahoma}, Norman, Oklahoma \hfill Enrolled: August 2021 | Expected: May 2025\\ % University name and location
+Computer Science \hfill Overall GPA: 4.0\\ % Degree and GPA
+
+% Experience Section
+\section*{Experience}
+\noindent
+\textbf{Co-Founder} \hfill Norman, Oklahoma\\ % Company name and location
+\textit{turnstyl} \hfill January 2023 - Present % Position and duration
+\begin{itemize}
+    \item Utilized Vue.js, Express.js, Amazon Web Services, and MySQL to create a progressive web application 
+    \item Worked with Startup OU to develop a business plan and market our application to potential customers
+    \item More information about the startup available at info.turnstyl.app
+\end{itemize}
+
+\noindent
+\textbf{Operation Technologies Co-Op} \hfill Sturtevant, Wisconsin\\ % Company name and location
+\textit{Bombardier Recreational Products} \hfill May 2023 - Present % Position and duration
+\begin{itemize}
+    \item Created an administrative web app on the Ignition platform to manage employee training
+    \item Configured communication between SQL databases, Programmable Logic Controllers, and Ignition
+    \item Normalized a monolithic database into a relational database using Transact-SQL
+\end{itemize}
+
+\noindent
+\textbf{Business Intelligence Co-Op} \hfill Sturtevant, Wisconsin\\ % Company name and location
+\textit{Bombardier Recreational Products} \hfill January 2022 - May 2023 % Position and duration
+\begin{itemize}
+    \item Created a non-conformance tracking system which saves the company over \$900,000 annually
+    \item Built web app with VueJS, ExpressJS, and MSSQL to act as a Master Production Schedule
+    \item Automated various data flow tasks using C\#, Python, JavaScript, and MSSQL
+\end{itemize}
+
+\noindent
+\textbf{Undergraduate Research Assistant} \hfill Norman, Oklahoma\\ % Company name and location
+\textit{Data Institute for Societal Challenges} \hfill January 2022 - May 2022 % Position and duration
+\begin{itemize}
+    \item Updated PanViz, an interactive visual analytics application to monitor pandemic data
+    \item Implemented Random Search and Grid Search in JavaScript to optimize multivariate functions
+    \item Collaborated with other developers to produce a ReactJS Web Application
+\end{itemize}
+
+% Skills Section
+\section*{Skills}
+\begin{itemize}
+    \item \textbf{Languages:} JavaScript (\& TypeScript), Python, R, C\#, SQL (MSSQL, MySQL, \& PostgreSQL) Java, Git CLI, C, C++, HTML5/CSS, Google Apps Scripts
+    \item \textbf{Frameworks / Libraries / Tools:} NodeJS, VueJS, Jest, ExpressJS, Amazon Web Services, Shiny, Rvest,
+    RSelenium, Selenium, GGPlot2, Matplotlib, Numpy, Pandas, Requests, Flask, Sequelize, ReactJS,
+    Nginx, p5.js, RestSharp, Ignition, Docker
+    \item \textbf{Design Expertise:} Web Development, Data Analysis, JSON API Calls, REST API Design,
+    Webhooks, Data Visualization and Communication, Database Design
+\end{itemize}
+
+% Relevant Courses Section
+\section*{Relevant Courses}
+\begin{itemize}
+    \item \textbf{Mathematics:} Calculus 4, Applied Multivariate Statistics, Linear Algebra, Discrete Mathematics, Theory of Computation
+    \item \textbf{Programming:} Data Structures, Algorithms, Software Engineering, Programming Languages, Operating Systems
+\end{itemize}
+
+% Awards
+\section*{Awards and Honors}
+  \textbf{National Merit Scholar} \\
+  \textit{National Merit Scholarship Corporation} \hfill 2021 % Position and duration
+% End document
+\end{document}
